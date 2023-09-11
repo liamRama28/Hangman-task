@@ -1,0 +1,59 @@
+/* Game.css */
+
+.game {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .word {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .word-letter {
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: bold;
+  }
+  
+  .alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .letter {
+    background-color: lightblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .letter.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .status {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  

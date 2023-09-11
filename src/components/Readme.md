@@ -1,0 +1,3 @@
+Game.js is the main component of the Hangman game. It manages the game's logic and user interactions. Players guess letters by clicking on the alphabet buttons, and the game updates to show correct guesses and remaining attempts. The component also features a "Request Help" button that reveals an unguessed correct letter. The game provides feedback on winning or losing, allows restarting, and has a user-friendly interface.
+
+The user is able to run this code on their local machine.
